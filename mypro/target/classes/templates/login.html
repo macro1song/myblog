@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <!--        <script src="/js/myjs.js"></script>-->
+    <script th:src="@{/js/myjs.js}"></script>
+</head>
+<body>
+ <h1>欢迎登录</h1>
+ <form action="queryUser">
+     <input type="text" placeholder="请输入商号" name="name"><br>
+     <input type="password" placeholder="请输入密码" name="pwd"><br>
+     <input type="submit" value="提交"><br>
+ </form>
+</body>
+</html>
